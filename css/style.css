@@ -145,7 +145,7 @@ header .fh5co-navbar-brand .fh5co-logo:after {
   right: -14px;
   width: 12px;
   height: 12px;
-  background: #565656;
+  background: orange !important;
   content: '';
 }
 header .fh5co-navbar-brand .fh5co-logo:hover {
@@ -495,7 +495,7 @@ header #fh5co-main-nav > ul li:first-child {
   right: 0;
   bottom: 0;
   background: black;
-  opacity: .2;
+  opacity: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -505,10 +505,10 @@ header #fh5co-main-nav > ul li:first-child {
   }
 }
 .fh5co-hero .fh5co-intro h1, .fh5co-parallax .fh5co-intro h1 {
-  color: #fff;
-  font-size: 70px;
+  color: white;
+  font-size: 50px;
   font-weight: 300;
-  margin-bottom: 10px;
+  margin-bottom: -10px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-hero .fh5co-intro h1, .fh5co-parallax .fh5co-intro h1 {

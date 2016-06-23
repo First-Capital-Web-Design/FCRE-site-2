@@ -3,8 +3,19 @@
   background-size: 100% 100%;
   background-position: center;
   display: block;
-  width: 450px;
-  height: 141px;
+  width: 320px;
+  height: 100.5px;
   -webkit-transition: height 2s, width 2s;
-  margin-left: calc(50% - 225px);
+  margin-left: 0px;
+}
+@media (min-width: 1000px) {
+  #fh5co-main-nav{
+    margin-right: 0px !important;
+    margin-top: -115px;
+    float: right!important;
+    position: relative;
+  }
+  header{
+    height: 230px;
+  }
 }

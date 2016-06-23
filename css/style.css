@@ -27,7 +27,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #3693D0;
+  color: gold;
 }
 a:focus, a:active {
   outline: none;
@@ -116,7 +116,7 @@ h3 {
   margin-left: -50px;
   width: 100px;
   height: 2px;
-  background: orange;
+  background: gold;
 }
 
 header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-section,

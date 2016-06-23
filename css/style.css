@@ -116,7 +116,7 @@ h3 {
   margin-left: -50px;
   width: 100px;
   height: 2px;
-  background: #565656;
+  background: orange;
 }
 
 header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-section,
@@ -145,7 +145,7 @@ header .fh5co-navbar-brand .fh5co-logo:after {
   right: -14px;
   width: 12px;
   height: 12px;
-  background: orange !important;
+  background: #565656;
   content: '';
 }
 header .fh5co-navbar-brand .fh5co-logo:hover {
@@ -505,7 +505,7 @@ header #fh5co-main-nav > ul li:first-child {
   }
 }
 .fh5co-hero .fh5co-intro h1, .fh5co-parallax .fh5co-intro h1 {
-  color: white;
+  color: #cce4f3;
   font-size: 50px;
   font-weight: 300;
   margin-bottom: -10px;

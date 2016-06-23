@@ -27,7 +27,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: orange;
+  color: #3693D0;
 }
 a:focus, a:active {
   outline: none;
@@ -47,7 +47,7 @@ span {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: rgba(0, 0, 0, 0.8);
+  color: #3693D0;
   font-family: "brandon-grotesque", Arial, serif;
   font-weight: 300;
   margin: 0 0 30px 0;
@@ -80,14 +80,14 @@ h3 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: orange;
+  background: #3693D0;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #F03861;
+  background: #565656;
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #ffb833 !important;
@@ -113,10 +113,10 @@ h3 {
   content: '';
   top: -15px;
   left: 50%;
-  margin-left: -15px;
-  width: 20px;
-  height: 3px;
-  background: #F03861;
+  margin-left: -50px;
+  width: 100px;
+  height: 2px;
+  background: #565656;
 }
 
 header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-section,
@@ -145,7 +145,7 @@ header .fh5co-navbar-brand .fh5co-logo:after {
   right: -14px;
   width: 12px;
   height: 12px;
-  background: #F03861;
+  background: #565656;
   content: '';
 }
 header .fh5co-navbar-brand .fh5co-logo:hover {
@@ -181,7 +181,7 @@ header #fh5co-main-nav > ul li a.active:before {
   content: '';
   bottom: -5px;
   right: 0px;
-  background: orange;
+  background: #3693D0;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;

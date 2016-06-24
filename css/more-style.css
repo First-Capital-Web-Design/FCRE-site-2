@@ -8,6 +8,9 @@
   -webkit-transition: height 2s, width 2s;
   margin-left: 0px;
 }
+dl{
+  margin-bottom: 5px;
+}
 @media (min-width: 1000px) {
   #fh5co-main-nav{
     margin-right: 0px !important;

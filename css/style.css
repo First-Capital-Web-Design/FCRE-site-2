@@ -478,7 +478,7 @@ header #fh5co-main-nav > ul li:first-child {
 .fh5co-table-cell,
 .fh5co-hero,
 .fh5co-parallax {
-  height: 500px;
+  height: 230px;
 }
 
 .fh5co-hero, .fh5co-parallax {
@@ -505,8 +505,8 @@ header #fh5co-main-nav > ul li:first-child {
   }
 }
 .fh5co-hero .fh5co-intro h1, .fh5co-parallax .fh5co-intro h1 {
-  color: #cce4f3;
-  font-size: 50px;
+  color: white;
+  font-size: 60px;
   font-weight: 300;
   margin-bottom: -10px;
 }

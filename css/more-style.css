@@ -181,7 +181,7 @@ dl{
   }
 
   .home-image{
-    height: calc(100vh - 130px) !important;
+    height: calc(100vh - 140px) !important;
     background-size: auto 100vh !important;
     width: 100vw;
     padding: 0;

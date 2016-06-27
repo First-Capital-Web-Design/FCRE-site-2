@@ -11,17 +11,84 @@
 .slider-button{
   width: 60px;
   height: 60px;
-  background-color: red;
   position: absolute;
   left: 50%;
   margin-left: -20px;
   top: -60px;
+  border-radius: 10px 10px 0 0;
+  -webkit-transition: all 1.5s ease-out;
 }
 .slided{
   bottom: 0px !important;
 }
+  .info-button-container{
+    position: fixed;
+    left: 50px;
+    top: 230px;
+    width: 327px;
+    height: 32px;
+    background-color: #444;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+.info-button{
+  width: auto;
+  padding: 0 10px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  float: left;
+}
+.why-us{
+  background-color: #595959;
+}
+.who{
+  background-color: #737373;
+}
+.info-button-active{
+  color: gold;
+}
+.info-button:hover{
+  color: gold;
+}
+.info-button + .info-button{
+  border-left: 1px solid lightgrey;
+}
+.info-content{
+  width: 327px;
+  height: auto;
+  position: absolute;
+  left: 50px;
+  top: -190px;
+  z-index: -1;
+  text-align: left;
+  background-color: white;
+  padding: 40px 20px 10px 20px;
+  font-size: 17px;
+  line-height: 25px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  -webkit-transition: top 1.5s;
+  opacity: .7;
+}
+.info-content-slided{
+  top: 230px;
+}
+.visible{
+  display: block;
+}
+.padded{
+  width: 190px;
+  border-right: 15px solid white;
+}
 .page-footer{
   -webkit-transition: bottom 1.5s;
+}
+.rotated {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 dl{
   margin-bottom: 5px;
@@ -41,6 +108,12 @@ dl{
   .logo{
     margin-left: calc(50% - 150px);
   }
+
+  header{
+    height: 280px;
+  }
+}
+@media (max-width: 768px) {
   header{
     height: 380px;
   }

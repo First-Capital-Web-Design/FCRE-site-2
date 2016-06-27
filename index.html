@@ -39,7 +39,6 @@
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="favicon.ico">
 
-	<!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'> -->
 
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -75,7 +74,7 @@
 
 	</head>
 	<body>
-	<header>
+	<header style="background-color: white; box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);">
 		<div class="container text-center">
 			<div class="fh5co-navbar-brand">
 				<a href="index.html"><div class="logo"></div></a>
@@ -91,7 +90,7 @@
 		</div>
 	</header>
 
-	<div class="fh5co" style="background-image: url('https://as2.ftcdn.net/jpg/00/72/52/07/500_F_72520788_QP6Cu0w284EkenPXKWRaQNnGLgq4POAg.jpg');background-position: absolute;background-size: auto 67vw; height: calc(100vh - 230px); background-position: 50% 100%; background-repeat: no-repeat;">
+	<div class="fh5co" style="position: absolute; z-index: -2; width: 100vw; background-image: url('https://as2.ftcdn.net/jpg/00/72/52/07/500_F_72520788_QP6Cu0w284EkenPXKWRaQNnGLgq4POAg.jpg');background-position: absolute;background-size: auto 67vw; height: calc(100vh - 230px); background-position: 50% 100%; background-repeat: no-repeat;">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -104,8 +103,29 @@
 		</div>
 	</div><!-- end: fh5co-parallax -->
 
-	<footer class="page-footer text-md-left" style="background-color:#444; color: white; padding: 20px 0 20px 0; position: fixed; left: 0; bottom: -240px; width: 100vw">
-		<div class="slider-button"><img src="https://github.com/First-Capital-Web-Design/FCRE-site-2/blob/gh-pages/images/arrow.jpg?raw=true"></div>
+	<div class="info-button-container">
+		<div class="who info-button">Who We Are
+		</div>
+		<div class="why-us info-button">Why Us
+		</div>
+		<div class="why-real-estate info-button">Why Real Estate
+		</div>
+	</div>
+
+	<div class="who-content info-content">
+		Our team of professionals has deep knowledge and experience with a wide variety of commercial property types, including office, industrial, retail, hospitality, multifamily and age-restricted residences, and in other real estate-related assets, and on all tranches of the capital stack, as well as with respect to land-use, entitlements, development, management and construction. We make that depth of knowledge and expertise available to our affiliates, partners, and institutional, high net worth and individual clients alike.
+	</div>
+
+	<div class="why-us-content info-content">
+		We accomplish our investment objectives by executing on a dual strategy of acquiring existing stabilized cash flowing assets at below their replacement costs to support stable, consistent, distributions and simultaneously acquiring opportunistic assets which we can reposition, redevelop or remarket to create value enhancement and capital appreciation.
+	</div>
+
+	<div class="why-real-estate-content info-content">
+		There are a number of options for investors looking to diversify their portfolios while creating long-term income and asset growth. Stocks, bonds and cash equivalents are the most common investment choices. In addition to stocks, bonds and mutual funds, real estate should be viewed as a significant asset class. Investing in real estate gives individuals the opportunity to grow their income along through building and land development.
+	</div>
+
+	<footer class="page-footer text-md-left" style="background-color:#444; color: white; padding-top: 40px; height: 300px; position: fixed; left: 0; bottom: -300px; width: 100vw">
+		<div class="slider-button"><img src="https://github.com/First-Capital-Web-Design/FCRE-site-2/blob/gh-pages/images/arrow.png?raw=true"></div>
 		<div class="row" style="margin-right: 0;">
 			<div class="col-md-10 col-md-offset-1">
 			<div class="col-md-6 col-sm-6 col-xs-6">
@@ -175,7 +195,58 @@
 
 			$(".slider-button").click(function(){
 				$(".page-footer").toggleClass("slided");
+				$(this).toggleClass('rotated');
 			});
+
+			$(".who").click(function(){
+
+				if($(this).hasClass("info-button-active")){
+					$(".info-button").removeClass("info-button-active");
+					$(".info-content").removeClass("info-content-slided");
+				} else {
+				$(".info-button").removeClass("info-button-active");
+				$(".who").addClass("info-button-active");
+
+				$(".info-content").removeClass("info-content-slided");
+				$(".who-content").addClass("info-content-slided");
+			}
+			});
+
+			$(".why-us").click(function(){
+				if($(this).hasClass("info-button-active")){
+					$(".info-button").removeClass("info-button-active");
+					$(".info-content").removeClass("info-content-slided");
+				} else {
+				$(".info-button").removeClass("info-button-active");
+				$(".why-us").addClass("info-button-active");
+
+				$(".info-content").removeClass("info-content-slided");
+				$(".why-us-content").addClass("info-content-slided");
+			}
+			});
+
+			$(".why-real-estate").click(function(){
+				if($(this).hasClass("info-button-active")){
+					$(".info-button").removeClass("info-button-active");
+					$(".info-content").removeClass("info-content-slided");
+				} else {
+				$(".info-button").removeClass("info-button-active");
+				$(".why-real-estate").addClass("info-button-active");
+
+				$(".info-content").removeClass("info-content-slided");
+				$(".why-real-estate-content").addClass("info-content-slided");
+			}
+			});
+
+			// $(".info-button").click(function(){
+			//
+			// 	if($(this).hasClass("info-button-active")){
+			// 		$(".info-button").removeClass("info-button-active");
+			//
+			// 		$(".info-content").removeClass("info-content-slided");
+			// 	}
+			//
+			// });
 
 		});
 	</script>

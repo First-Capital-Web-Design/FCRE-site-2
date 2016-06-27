@@ -130,7 +130,7 @@ dl{
     top: 280px;
   }
 }
-@media (max-width: 569px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
 
   header #fh5co-main-nav > ul li {
     display: block;

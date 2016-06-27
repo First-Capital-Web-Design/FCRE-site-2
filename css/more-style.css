@@ -181,7 +181,7 @@ dl{
   }
 
   .home-image{
-    height: calc(100vh - 90px) !important;
+    height: calc(100vh - 130px) !important;
     background-size: auto 100vh !important;
     width: 100vw;
     padding: 0;
@@ -228,6 +228,10 @@ dl{
   }
   .nav-info-active{
     top: 220px !important;
+  }
+
+  .fh5co-table, .fh5co-table-cell, .fh5co-hero, .fh5co-parallax{
+    height: 440px !important;
   }
 
 }

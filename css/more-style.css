@@ -8,9 +8,6 @@
   -webkit-transition: height 2s, width 2s;
   margin-left: 0px;
 }
-.mobile-nav{
-  display: none;
-}
 .home-image{
   position: absolute;
   z-index: -2;
@@ -90,10 +87,6 @@
 .visible{
   display: block;
 }
-.padded{
-  width: 190px;
-  border-right: 15px solid white;
-}
 .page-footer{
   -webkit-transition: bottom 1.5s;
 }
@@ -117,6 +110,7 @@ dl{
   header{
     height: 230px;
   }
+
 }
 @media (max-width: 999px) {
   .logo{
@@ -129,8 +123,20 @@ dl{
   .info-button-container{
     top: 280px;
   }
+
+
+
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+
+@media (min-width: 568px) {
+
+  .mobile-nav{
+    display: none !important;
+  }
+
+}
+
+@media (max-width: 568px) {
 
   header #fh5co-main-nav > ul li {
     display: block;
@@ -175,8 +181,11 @@ dl{
   }
 
   .home-image{
-    height: calc(100vh - 200px) !important;
-    background-size: auto 67vh !important;
+    height: calc(100vh - 90px) !important;
+    background-size: auto 100vh !important;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
   }
 
   .home-image-text{
@@ -184,7 +193,8 @@ dl{
   }
 
   body{
-    overflow: hidden;
+    width: 100vw;
+    overflow-x: hidden;
   }
 
   .info-content-slided{
@@ -198,6 +208,8 @@ dl{
 
   .mobile-nav{
     display: inline;
+    width: 20px;
+    height: 20px;
   }
 
   #fh5co-main-nav{

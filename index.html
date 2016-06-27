@@ -81,6 +81,7 @@
 			</div>
 			<nav id="fh5co-main-nav" role="navigation">
 				<ul>
+					<li><div class="mobile-nav">?</div></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="programs.html">Investment Programs</a></li>
 					<li><a href="companies.html">Family of Companies</a></li>
@@ -90,13 +91,13 @@
 		</div>
 	</header>
 
-	<div class="fh5co" style="position: absolute; z-index: -2; width: 100vw; background-image: url('https://as2.ftcdn.net/jpg/00/72/52/07/500_F_72520788_QP6Cu0w284EkenPXKWRaQNnGLgq4POAg.jpg');background-position: absolute;background-size: auto 67vw; height: calc(100vh - 230px); background-position: 50% 100%; background-repeat: no-repeat;">
+	<div class="fh5co home-image">
 		<div class="overlay"></div>
-		<div class="container">
+		<div class="container ">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
 					<div class="fh5co-intro fh5co-table-cell">
-						<h1 class="text-center home-image-text" style="text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.5);color: white; font-size: 50px; font-weight: 300; margin-top: -140px;">First Capital Provides a <span style="color:white;font-size: 50px;font-weight: 300;"><em>Full Service</em></span> Real Estate Platform</h1>
+						<h1 class="text-center home-image-text" style="text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.5);color: white; font-size: 50px; font-weight: 300; margin-top: -140px;">First Capital Provides a <em>Full Service</em> Real Estate Platform</h1>
 					</div>
 				</div>
 			</div>
@@ -236,6 +237,11 @@
 				$(".info-content").removeClass("info-content-slided");
 				$(".why-real-estate-content").addClass("info-content-slided");
 			}
+			});
+
+			$(".mobile-nav").click(function(){
+				$("#fh5co-main-nav").toggleClass("nav-active");
+				$(".info-button-container").toggleClass("nav-info-active");
 			});
 
 			// $(".info-button").click(function(){

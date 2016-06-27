@@ -161,13 +161,13 @@ header #fh5co-main-nav > ul li {
   margin-left: 40px;
   font-size: 18px;
 }
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
   header #fh5co-main-nav > ul li {
     display: block;
     margin-left: 0;
     margin-bottom: 15px;
   }
-}
+}taken-out*/ 
 header #fh5co-main-nav > ul li a {
   padding-bottom: 5px;
   color: #000;

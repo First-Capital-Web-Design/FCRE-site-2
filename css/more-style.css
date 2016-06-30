@@ -238,4 +238,21 @@ dl{
     height: 440px !important;
   }
 
+  .page-footer h3 {
+    font-size: 15px;
+    line-height: 0;
+ }
+
+ .page-footer{
+   height: 600px !important;
+ }
+
+ .list-terms{
+   font-size: 15px;
+}
+
+ .mobile-footer-text{
+   font-size: 14px;
+ }
+
 }

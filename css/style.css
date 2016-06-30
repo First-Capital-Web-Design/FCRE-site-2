@@ -158,7 +158,7 @@ header #fh5co-main-nav > ul {
 header #fh5co-main-nav > ul li {
   list-style: none;
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 25px;
   font-size: 18px;
 }
 /*@media screen and (max-width: 768px) {
@@ -167,7 +167,7 @@ header #fh5co-main-nav > ul li {
     margin-left: 0;
     margin-bottom: 15px;
   }
-}taken-out*/ 
+}taken-out*/
 header #fh5co-main-nav > ul li a {
   padding-bottom: 5px;
   color: #000;

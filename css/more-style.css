@@ -12,7 +12,7 @@
   position: absolute;
   z-index: -2;
   width: 100vw;
-  background-image: url('https://as2.ftcdn.net/jpg/00/72/52/07/500_F_72520788_QP6Cu0w284EkenPXKWRaQNnGLgq4POAg.jpg');
+  background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-2/blob/gh-pages/images/home-image.jpeg?raw=true');
   background-size: auto 67vw;
   height: calc(100vh - 230px);
   background-position: 50% 100%;
@@ -244,7 +244,12 @@ dl{
  }
 
  .page-footer{
-   height: 600px !important;
+   height: 420px !important;
+   bottom: -420px !important;
+ }
+
+ .slided{
+   bottom: 0px !important;
  }
 
  .list-terms{
@@ -254,5 +259,12 @@ dl{
  .mobile-footer-text{
    font-size: 14px;
  }
+ .contact-mobile{
+   display: none;
+ }
+
+.contact-mobile-second{
+  margin-top: 0 !important;
+}
 
 }

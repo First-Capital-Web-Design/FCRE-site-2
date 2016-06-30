@@ -112,21 +112,36 @@ dl{
     padding-bottom: 0;
     height: 110px;
   }
-
 }
 @media (max-width: 999px) {
   .logo{
-    margin-left: calc(50% - 150px);
+    margin-left: calc(50% - 160px);
   }
 
   header{
-    height: 280px;
+    height: 150px;
+    padding-top:0;
   }
   .info-button-container{
-    top: 280px;
+    top: 150px;
   }
 
+  .fh5co-navbar-brand{
+    padding-bottom: 10px !important;
+  }
 
+  .info-content-slided{
+    top: 150px;
+  }
+
+  .home-image{
+    height: calc(100vh - 150px) !important;
+    background-size: auto 100vh !important;
+    background-position: center;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+  }
 
 }
 
@@ -151,7 +166,7 @@ dl{
     left:0;
     width: 100%;
     height: 24px;
-    top: 110px;
+    top: 95px;
   }
 
   .info-button{
@@ -169,13 +184,13 @@ dl{
     padding-top: 20px;
     width: 100vw;
     padding-bottom: 20px;
-    height: 120px;
+    height: 118px;
   }
 
   .logo{
     margin-left: calc(50% - 108px);
     width: 200px;
-    height: 63px;
+    height: 53px;
   }
 
   header .fh5co-navbar-brand {
@@ -183,7 +198,7 @@ dl{
   }
 
   .home-image{
-    height: calc(100vh - 140px) !important;
+    height: calc(100vh - 120px) !important;
     background-size: auto 100vh !important;
     width: 100vw;
     padding: 0;
@@ -200,7 +215,7 @@ dl{
   }
 
   .info-content-slided{
-    top: 110px;
+    top: 120px;
   }
 
   .info-content{
@@ -220,7 +235,7 @@ dl{
 
   #fh5co-main-nav{
     overflow: hidden;
-    height: 40px;
+    height: 30px;
     -webkit-transition: height 1.5s;
     background-color: white;
     width: 100%;
@@ -229,11 +244,11 @@ dl{
     padding: 0;
   }
   .nav-active{
-    height: 160px !important;
+    height: 170px !important;
     background-color: white;
   }
   .nav-info-active{
-    top: 220px !important;
+    top: 240px !important;
   }
 
   .fh5co-table, .fh5co-table-cell, .fh5co-hero, .fh5co-parallax{

@@ -225,7 +225,7 @@ dl{
 
   .mobile-nav{
     display: block;
-    position: fixed;
+    position: absolute;
     right: 25px;
     top: 25px;
     width: 20px;
@@ -233,19 +233,19 @@ dl{
     z-index: 6;
   }
 
-  #fh5co-main-nav{
+  #fh5co-main-nav {
     overflow: hidden;
-    height: 30px;
+    height: 10px;
     -webkit-transition: height 1.5s;
-    background-color: white;
+    background-color: white !important;
     width: 100%;
+    z-index: 10;
   }
   .container{
     padding: 0;
   }
   .nav-active{
     height: 170px !important;
-    background-color: white;
   }
   .nav-info-active{
     top: 240px !important;
@@ -282,6 +282,10 @@ dl{
 
 .contact-mobile-second{
   margin-top: 0 !important;
+}
+
+.center-banner {
+  margin-top: -135px !important;
 }
 
 }

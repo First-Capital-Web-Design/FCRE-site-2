@@ -1,10 +1,10 @@
 .logo{
-  background-image: url("images/logo2.png") !important;
+  background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-2/blob/gh-pages/images/logo2.png?raw=true") !important;
   background-size: 100% 100%;
   background-position: center;
   display: block;
   width: 320px;
-  height: 97px;
+  height: 82px;
   -webkit-transition: height 2s, width 2s;
   margin-left: 0px;
 }
@@ -15,7 +15,7 @@
   background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-2/blob/gh-pages/images/home-image.jpeg?raw=true');
   background-size: auto 67vw;
   height: calc(100vh - 230px);
-  background-position: 50% 100%;
+  background-position: 0% 50%;
   background-repeat: no-repeat;
 }
 .slider-button{
@@ -34,7 +34,7 @@
   .info-button-container{
     position: absolute;
     left: 50px;
-    top: 230px;
+    top: 160px;
     width: 327px;
     height: 32px;
     background-color: #444;
@@ -82,7 +82,7 @@
   opacity: .8;
 }
 .info-content-slided{
-  top: 230px;
+  top: 160px;
 }
 .visible{
   display: block;
@@ -108,7 +108,7 @@ dl{
     position: relative;
   }
   header{
-    height: 230px;
+    height: 150px;
   }
 
 }

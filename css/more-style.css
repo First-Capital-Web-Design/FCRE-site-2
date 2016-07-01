@@ -18,6 +18,16 @@
   background-position: 0% 50%;
   background-repeat: no-repeat;
 }
+.home-line{
+  position: fixed;
+  right: 5vw;
+  top: 35vh;
+  background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-2/blob/gh-pages/images/home-line.png?raw=true');
+  background-size: 45vw auto;
+  background-repeat: no-repeat;
+  width: 45vw;
+  height: 60vh;
+}
 .slider-button{
   width: 60px;
   height: 60px;

@@ -8,6 +8,10 @@
   -webkit-transition: height 2s, width 2s;
   margin-left: 0px;
 }
+header{
+  position: relative;
+  z-index: 2
+}
 .home-image{
   position: absolute;
   z-index: -2;
@@ -20,12 +24,12 @@
 }
 .home-line{
   position: fixed;
-  right: 5vw;
-  top: 35vh;
-  background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-2/blob/gh-pages/images/home-line.png?raw=true');
-  background-size: 45vw auto;
+  right: 0;
+  top: 40vh;
+  background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-2/blob/gh-pages/images/home-line1.png?raw=true');
+  background-size: 38vw auto;
   background-repeat: no-repeat;
-  width: 45vw;
+  width: 38vw;
   height: 60vh;
 }
 .slider-button{
@@ -51,6 +55,7 @@
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     -webkit-transition: top 1.5s;
+    z-index: 2;
   }
 .info-button{
   width: auto;
@@ -59,12 +64,17 @@
   color: white;
   text-align: center;
   float: left;
+  z-index: 2;
+  position: relative;
 }
 .why-us{
   background-color: #595959;
 }
 .who{
   background-color: #737373;
+}
+.why-real-estate{
+  background-color: #444;
 }
 .info-button-active{
   color: orange;
@@ -81,7 +91,7 @@
   position: absolute;
   left: 50px;
   top: -270px;
-  z-index: -1;
+  z-index: 1;
   text-align: left;
   background-color: white;
   padding: 40px 20px 10px 20px;
@@ -151,6 +161,17 @@ dl{
     width: 100vw;
     padding: 0;
     margin: 0;
+  }
+
+  .home-line{
+    position: fixed;
+    right: 0;
+    top: 40vh;
+    background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-2/blob/gh-pages/images/home-line1.png?raw=true');
+    background-size: 50vw auto;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 60vh;
   }
 
 }
@@ -273,6 +294,7 @@ dl{
  .page-footer{
    height: 420px !important;
    bottom: -420px !important;
+   padding-left: 10vw;
  }
 
  .slided{
@@ -296,6 +318,17 @@ dl{
 
 .center-banner {
   margin-top: -135px !important;
+}
+
+.home-line{
+  position: fixed;
+  right: 0;
+  top: 40vh;
+  background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-2/blob/gh-pages/images/home-line1.png?raw=true');
+  background-size: 80vw auto;
+  background-repeat: no-repeat;
+  width: 80vw;
+  height: 60vh;
 }
 
 }

@@ -202,9 +202,14 @@
 			$(".slider-button").click(function(){
 				$(".page-footer").toggleClass("slided");
 				$(this).toggleClass('rotated');
+				$(".info-button").removeClass("info-button-active");
+				$(".info-content").removeClass("info-content-slided");
+
 			});
 
 			$(".who").click(function(){
+
+				$(".page-footer").removeClass("slided");
 
 				if($(this).hasClass("info-button-active")){
 					$(".info-button").removeClass("info-button-active");
@@ -219,6 +224,9 @@
 			});
 
 			$(".why-us").click(function(){
+
+				$(".page-footer").removeClass("slided");
+
 				if($(this).hasClass("info-button-active")){
 					$(".info-button").removeClass("info-button-active");
 					$(".info-content").removeClass("info-content-slided");
@@ -232,6 +240,9 @@
 			});
 
 			$(".why-real-estate").click(function(){
+
+				$(".page-footer").removeClass("slided");
+
 				if($(this).hasClass("info-button-active")){
 					$(".info-button").removeClass("info-button-active");
 					$(".info-content").removeClass("info-content-slided");

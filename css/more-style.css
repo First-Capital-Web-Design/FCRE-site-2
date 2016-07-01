@@ -25,12 +25,13 @@ header{
 .home-line{
   position: fixed;
   right: 0;
-  top: 40vh;
+  top: 55vh;
   background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-2/blob/gh-pages/images/home-line1.png?raw=true');
   background-size: 38vw auto;
   background-repeat: no-repeat;
   width: 38vw;
   height: 60vh;
+  opacity: .9;
 }
 .slider-button{
   width: 60px;
@@ -41,6 +42,7 @@ header{
   top: -60px;
   border-radius: 10px 10px 0 0;
   -webkit-transition: all 1.5s ease-out;
+  opacity: .83;
 }
 .slided{
   bottom: 0px !important;

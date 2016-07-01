@@ -57,10 +57,10 @@
   background-color: #737373;
 }
 .info-button-active{
-  color: gold;
+  color: orange;
 }
 .info-button:hover{
-  color: gold;
+  color: orange;
 }
 .info-button + .info-button{
   border-left: 1px solid lightgrey;

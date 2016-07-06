@@ -38,7 +38,7 @@ header{
   height: 60px;
   position: absolute;
   left: 50%;
-  margin-left: -20px;
+  margin-left: -30px;
   top: -60px;
   border-radius: 10px 10px 0 0;
   -webkit-transition: all 1.5s ease-out;
@@ -101,7 +101,7 @@ header{
   line-height: 25px;
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
   -webkit-transition: top 1.5s;
-  opacity: .8;
+  opacity: .7;
 }
 .info-content-slided{
   top: 110px;
@@ -278,10 +278,10 @@ dl{
     padding: 0;
   }
   .nav-active{
-    height: 170px !important;
+    height: 140px !important;
   }
   .nav-info-active{
-    top: 240px !important;
+    top: 220px !important;
   }
 
   .fh5co-table, .fh5co-table-cell, .fh5co-hero, .fh5co-parallax{

@@ -209,6 +209,8 @@
 			$(".who").click(function(){
 
 				$(".page-footer").removeClass("slided");
+				$("#fh5co-main-nav").removeClass("nav-active");
+				$(".info-button-container").removeClass("nav-info-active");
 
 				if($(this).hasClass("info-button-active")){
 					$(".info-button").removeClass("info-button-active");
@@ -225,6 +227,8 @@
 			$(".why-us").click(function(){
 
 				$(".page-footer").removeClass("slided");
+				$("#fh5co-main-nav").removeClass("nav-active");
+				$(".info-button-container").removeClass("nav-info-active");
 
 				if($(this).hasClass("info-button-active")){
 					$(".info-button").removeClass("info-button-active");
@@ -241,6 +245,8 @@
 			$(".why-real-estate").click(function(){
 
 				$(".page-footer").removeClass("slided");
+				$("#fh5co-main-nav").removeClass("nav-active");
+				$(".info-button-container").removeClass("nav-info-active");
 
 				if($(this).hasClass("info-button-active")){
 					$(".info-button").removeClass("info-button-active");
@@ -257,6 +263,9 @@
 			$(".mobile-nav").click(function(){
 				$("#fh5co-main-nav").toggleClass("nav-active");
 				$(".info-button-container").toggleClass("nav-info-active");
+				$(".info-content").removeClass("info-content-slided");
+				$(".info-button").removeClass("info-button-active");
+
 			});
 
 
